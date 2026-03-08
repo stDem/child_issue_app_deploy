@@ -1,0 +1,38 @@
+[
+  {
+    "plantId": "B210",
+    "plantName": "Schanghai",
+    "lat": 31.2304,
+    "lon": 121.4737
+  },
+  {
+    "plantId": "FO33",
+    "plantName": "Munchen",
+    "lat": 48.1351,
+    "lon": 11.582
+  },
+  {
+    "plantId": "W520",
+    "plantName": "Würzburg",
+    "lat": 49.7913,
+    "lon": 9.9534
+  },
+  {
+    "plantId": "V490",
+    "plantName": "Berlin",
+    "lat": 52.52,
+    "lon": 13.405
+  },
+  {
+    "plantId": "JK05",
+    "plantName": "Ulm",
+    "lat": 48.4011,
+    "lon": 9.9876
+  },
+  {
+    "plantId": "LO10",
+    "plantName": "London",
+    "lat": 51.5072,
+    "lon": -0.1276
+  }
+]

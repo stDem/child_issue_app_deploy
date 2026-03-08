@@ -1,0 +1,5458 @@
+[
+  {
+    "attachments": [],
+    "bi": "2",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-17 11:47:00.0",
+    "defectDate": "2026-12-17 11:47:00.0",
+    "description": "Lead detection at EOL-2. Pattern: Leakage under pressure test.\nContainment request: Containment: hold suspect batch and rework clamps.\nRCA_HINT: Seal seating issue due to clamp position variation.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 163469421, lot LOT-2834-21.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "W520-2026-QT-310000",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "W520-2026-QT-310000",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "B210-2026-QT-310000",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "JK05-2026-QT-310000",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "LO10-2026-QT-310000",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "V490-2026-QT-310000",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "163469421",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Amelia Johnson"
+    ],
+    "sensor": "line21",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "1",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-26 12:43:08.0",
+    "defectDate": "2026-11-26 12:43:08.0",
+    "description": "Lead detection at TORQ-8. Pattern: Scratch / cosmetic damage.\nContainment request: Containment: add protective film and retrain operators.\nRCA_HINT: Contact with fixture during transport or assembly.\nTraceability: supplier DragonFast Components Co., Ltd. (1000001987), lead material 254892713, lot LOT-2863-19.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "W520-2026-QT-310001",
+    "issueRelations": [
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "W520-2026-QT-310001",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "B210-2026-QT-310001",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "FO33-2026-QT-310001",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "JK05-2026-QT-310001",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "LO10-2026-QT-310001",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "V490-2026-QT-310001",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "254892713",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "leak1",
+    "supplierId": "1000001987",
+    "supplierName": "DragonFast Components Co., Ltd.",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "2",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-29 15:44:06.0",
+    "defectDate": "2026-11-29 15:44:06.0",
+    "description": "Lead detection at VISION-4. Pattern: Insufficient solder joint / open circuit.\nContainment request: Sorting initiated at EOL with continuity test.\nRCA_HINT: Contamination on pads leading to poor solderability.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 701571670, lot LOT-2810-61.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310002",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "LO10-2026-QT-310002",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "B210-2026-QT-310002",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "FO33-2026-QT-310002",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "JK05-2026-QT-310002",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "V490-2026-QT-310002",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "W520-2026-QT-310002",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "701571670",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Amelia Johnson"
+    ],
+    "sensor": "eol2",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "1",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-14 21:36:57.0",
+    "defectDate": "2026-12-14 21:36:57.0",
+    "description": "Lead detection at EOL-2. Pattern: Thread damage / torque anomaly.\nContainment request: Sorting initiated with thread gauge check.\nRCA_HINT: Incorrect torque program selected at station.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 599936196, lot LOT-2885-61.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310003",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "FO33-2026-QT-310003",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "JK05-2026-QT-310003",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "LO10-2026-QT-310003",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "W520-2026-QT-310003",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "599936196",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Lukas Weber"
+    ],
+    "sensor": "eol-elec3",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "1",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-11 11:24:54.0",
+    "defectDate": "2026-11-11 11:24:54.0",
+    "description": "Lead detection at TORQ-8. Pattern: Thread damage / torque anomaly.\nContainment request: Sorting initiated with thread gauge check.\nRCA_HINT: Worn tap / die at supplier leading to burrs.\nTraceability: supplier DragonFast Components Co., Ltd. (1000001987), lead material 410965605, lot LOT-2855-67.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310004",
+    "issueRelations": [
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "FO33-2026-QT-310004",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "B210-2026-QT-310004",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "JK05-2026-QT-310004",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "V490-2026-QT-310004",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "410965605",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Lukas Weber"
+    ],
+    "sensor": "line21",
+    "supplierId": "1000001987",
+    "supplierName": "DragonFast Components Co., Ltd.",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "4",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-20 18:53:39.0",
+    "defectDate": "2026-12-20 18:53:39.0",
+    "description": "Lead detection at LEAK-1. Pattern: Leakage under pressure test.\nContainment request: Sorting initiated with pressure test re-check.\nRCA_HINT: Torque tool calibration drift leading to under-tightening.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 175006691, lot LOT-2889-59.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310005",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "FO33-2026-QT-310005",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "B210-2026-QT-310005",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "LO10-2026-QT-310005",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "W520-2026-QT-310005",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "175006691",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Mia Schneider"
+    ],
+    "sensor": "vision4",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-16 06:38:33.0",
+    "defectDate": "2026-11-16 06:38:33.0",
+    "description": "Lead detection at VISION-4. Pattern: Insufficient solder joint / open circuit.\nContainment request: Sorting initiated at EOL with continuity test.\nRCA_HINT: Contamination on pads leading to poor solderability.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 705985840, lot LOT-2844-91.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310006",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "FO33-2026-QT-310006",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "JK05-2026-QT-310006",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "LO10-2026-QT-310006",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "V490-2026-QT-310006",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "705985840",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Oliver Smith"
+    ],
+    "sensor": "vision4",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-30 03:34:02.0",
+    "defectDate": "2026-12-30 03:34:02.0",
+    "description": "Lead detection at EOL-2. Pattern: Leakage under pressure test.\nContainment request: Sorting initiated with pressure test re-check.\nRCA_HINT: Surface roughness out of spec at sealing interface.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 488246102, lot LOT-2842-66.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "B210-2026-QT-310007",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "B210-2026-QT-310007",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "FO33-2026-QT-310007",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "JK05-2026-QT-310007",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "LO10-2026-QT-310007",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "V490-2026-QT-310007",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "W520-2026-QT-310007",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "488246102",
+    "PlantId": "B210",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "eol-scan",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "5",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-03 22:26:04.0",
+    "defectDate": "2026-11-03 22:26:04.0",
+    "description": "Lead detection at VISION-4. Pattern: Scratch / cosmetic damage.\nContainment request: Containment: add protective film and retrain operators.\nRCA_HINT: Handling damage due to inadequate protective packaging.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 934543046, lot LOT-2865-92.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310008",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "LO10-2026-QT-310008",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "FO33-2026-QT-310008",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "JK05-2026-QT-310008",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "V490-2026-QT-310008",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "934543046",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Li Si"
+    ],
+    "sensor": "line7",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "8",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-07 19:14:13.0",
+    "defectDate": "2026-11-07 19:14:13.0",
+    "description": "Lead detection at INSP-A12. Pattern: Sensor intermittent dropout.\nContainment request: Containment: add additional functional check at incoming.\nRCA_HINT: Internal sensor PCB micro-crack from handling shock.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 644854973, lot LOT-2809-33.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "W520-2026-QT-310009",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "W520-2026-QT-310009",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "B210-2026-QT-310009",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "FO33-2026-QT-310009",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "V490-2026-QT-310009",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "644854973",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Noah Wagner"
+    ],
+    "sensor": "torque8",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "8",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-11 14:56:05.0",
+    "defectDate": "2026-12-11 14:56:05.0",
+    "description": "Lead detection at FIS-1. Pattern: Leakage under pressure test.\nContainment request: Containment: hold suspect batch and rework clamps.\nRCA_HINT: Torque tool calibration drift leading to under-tightening.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 140260662, lot LOT-2880-07.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "W520-2026-QT-310010",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "W520-2026-QT-310010",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "B210-2026-QT-310010",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "FO33-2026-QT-310010",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "JK05-2026-QT-310010",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "LO10-2026-QT-310010",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "V490-2026-QT-310010",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "140260662",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Li Si"
+    ],
+    "sensor": "vision4",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "5",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-04 15:05:43.0",
+    "defectDate": "2026-11-04 15:05:43.0",
+    "description": "Lead detection at INSP-A12. Pattern: Sensor intermittent dropout.\nContainment request: Sorting initiated with functional test repeat.\nRCA_HINT: Connector contact resistance due to poor crimp.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 210655224, lot LOT-2888-80.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310011",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "FO33-2026-QT-310011",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "B210-2026-QT-310011",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "JK05-2026-QT-310011",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "LO10-2026-QT-310011",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "V490-2026-QT-310011",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "W520-2026-QT-310011",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "210655224",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Li Si"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "5",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-21 11:14:06.0",
+    "defectDate": "2026-12-21 11:14:06.0",
+    "description": "Lead detection at LEAK-1. Pattern: Insufficient solder joint / open circuit.\nContainment request: Sorting initiated at EOL with continuity test.\nRCA_HINT: Contamination on pads leading to poor solderability.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 499858816, lot LOT-2813-92.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310012",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "LO10-2026-QT-310012",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "B210-2026-QT-310012",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "V490-2026-QT-310012",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "W520-2026-QT-310012",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "499858816",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "finalCam1",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-07 20:36:06.0",
+    "defectDate": "2026-11-07 20:36:06.0",
+    "description": "Lead detection at TORQ-8. Pattern: Leakage under pressure test.\nContainment request: Sorting initiated with pressure test re-check.\nRCA_HINT: Torque tool calibration drift leading to under-tightening.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 177777868, lot LOT-2853-22.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "B210-2026-QT-310013",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "B210-2026-QT-310013",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "FO33-2026-QT-310013",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "JK05-2026-QT-310013",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "LO10-2026-QT-310013",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "V490-2026-QT-310013",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "W520-2026-QT-310013",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "177777868",
+    "PlantId": "B210",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Sabine Keller"
+    ],
+    "sensor": "leak1",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "5",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-03 19:40:20.0",
+    "defectDate": "2026-12-03 19:40:20.0",
+    "description": "Lead detection at INSP-A12. Pattern: Leakage under pressure test.\nContainment request: Sorting initiated with pressure test re-check.\nRCA_HINT: Seal seating issue due to clamp position variation.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 764656492, lot LOT-2871-15.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "W520-2026-QT-310014",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "W520-2026-QT-310014",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "B210-2026-QT-310014",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "FO33-2026-QT-310014",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "JK05-2026-QT-310014",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "LO10-2026-QT-310014",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "V490-2026-QT-310014",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "764656492",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Sabine Keller"
+    ],
+    "sensor": "torque8",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "8",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-18 22:58:46.0",
+    "defectDate": "2026-11-18 22:58:46.0",
+    "description": "Lead detection at INSP-A12. Pattern: Sensor intermittent dropout.\nContainment request: Containment: add additional functional check at incoming.\nRCA_HINT: Internal sensor PCB micro-crack from handling shock.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 523938499, lot LOT-2892-26.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310015",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "FO33-2026-QT-310015",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "B210-2026-QT-310015",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "LO10-2026-QT-310015",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "W520-2026-QT-310015",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "523938499",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Li Si"
+    ],
+    "sensor": "finalCam1",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-25 01:42:10.0",
+    "defectDate": "2026-11-25 01:42:10.0",
+    "description": "Lead detection at INSP-A12. Pattern: Insufficient solder joint / open circuit.\nContainment request: Containment: quarantine last 2 lots and test 100%.\nRCA_HINT: Component lead coplanarity issue causing weak joint.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 850539557, lot LOT-2890-20.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310016",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "JK05-2026-QT-310016",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "FO33-2026-QT-310016",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "LO10-2026-QT-310016",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "W520-2026-QT-310016",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "850539557",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Noah Wagner"
+    ],
+    "sensor": "eol-scan",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "1",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-11 14:59:12.0",
+    "defectDate": "2026-12-11 14:59:12.0",
+    "description": "Lead detection at TORQ-8. Pattern: Insufficient solder joint / open circuit.\nContainment request: Sorting initiated at EOL with continuity test.\nRCA_HINT: Insufficient solder wetting due to incorrect reflow profile.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 153246119, lot LOT-2845-02.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "W520-2026-QT-310017",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "W520-2026-QT-310017",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "B210-2026-QT-310017",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "FO33-2026-QT-310017",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "LO10-2026-QT-310017",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "V490-2026-QT-310017",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "153246119",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Zhang San"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "5",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-01 20:30:10.0",
+    "defectDate": "2026-12-01 20:30:10.0",
+    "description": "Lead detection at FIS-1. Pattern: Leakage under pressure test.\nContainment request: Containment: hold suspect batch and rework clamps.\nRCA_HINT: Surface roughness out of spec at sealing interface.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 187891151, lot LOT-2880-46.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310018",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "FO33-2026-QT-310018",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "JK05-2026-QT-310018",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "LO10-2026-QT-310018",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "V490-2026-QT-310018",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "W520-2026-QT-310018",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "187891151",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Li Si"
+    ],
+    "sensor": "eol-scan",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-10 20:42:07.0",
+    "defectDate": "2026-12-10 20:42:07.0",
+    "description": "Lead detection at VISION-4. Pattern: Sensor intermittent dropout.\nContainment request: Sorting initiated with functional test repeat.\nRCA_HINT: EMI susceptibility due to shielding deviation.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 719659571, lot LOT-2807-94.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "B210-2026-QT-310019",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "B210-2026-QT-310019",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "FO33-2026-QT-310019",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "JK05-2026-QT-310019",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "LO10-2026-QT-310019",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "V490-2026-QT-310019",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "W520-2026-QT-310019",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "719659571",
+    "PlantId": "B210",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Mia Schneider"
+    ],
+    "sensor": "vision4",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-02 15:25:31.0",
+    "defectDate": "2026-12-02 15:25:31.0",
+    "description": "Lead detection at EOL-3. Pattern: Thread damage / torque anomaly.\nContainment request: Containment: stop line and check torque program.\nRCA_HINT: Worn tap / die at supplier leading to burrs.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 197402358, lot LOT-2831-70.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "V490-2026-QT-310020",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "V490-2026-QT-310020",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "B210-2026-QT-310020",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "JK05-2026-QT-310020",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "LO10-2026-QT-310020",
+        "relationPlant": "LO10"
+      }
+    ],
+    "materialNumber": "197402358",
+    "PlantId": "V490",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-23 16:20:35.0",
+    "defectDate": "2026-12-23 16:20:35.0",
+    "description": "Lead detection at INSP-A12. Pattern: Insufficient solder joint / open circuit.\nContainment request: Containment: quarantine last 2 lots and test 100%.\nRCA_HINT: Contamination on pads leading to poor solderability.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 163469421, lot LOT-2860-96.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310021",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "FO33-2026-QT-310021",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "B210-2026-QT-310021",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "JK05-2026-QT-310021",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "LO10-2026-QT-310021",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "V490-2026-QT-310021",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "W520-2026-QT-310021",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "163469421",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Noah Wagner"
+    ],
+    "sensor": "eol-scan",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "2",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-10 17:56:35.0",
+    "defectDate": "2026-11-10 17:56:35.0",
+    "description": "Lead detection at VISION-4. Pattern: Insufficient solder joint / open circuit.\nContainment request: Containment: quarantine last 2 lots and test 100%.\nRCA_HINT: Insufficient solder wetting due to incorrect reflow profile.\nTraceability: supplier DragonFast Components Co., Ltd. (1000001987), lead material 254892713, lot LOT-2804-30.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "B210-2026-QT-310022",
+    "issueRelations": [
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "B210-2026-QT-310022",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "JK05-2026-QT-310022",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "LO10-2026-QT-310022",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "V490-2026-QT-310022",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "W520-2026-QT-310022",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "254892713",
+    "PlantId": "B210",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Laura Wolf"
+    ],
+    "sensor": "line21",
+    "supplierId": "1000001987",
+    "supplierName": "DragonFast Components Co., Ltd.",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-15 20:41:48.0",
+    "defectDate": "2026-12-15 20:41:48.0",
+    "description": "Lead detection at INSP-A12. Pattern: Thread damage / torque anomaly.\nContainment request: Containment: stop line and check torque program.\nRCA_HINT: Worn tap / die at supplier leading to burrs.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 701571670, lot LOT-2840-82.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310023",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "FO33-2026-QT-310023",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "LO10-2026-QT-310023",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "V490-2026-QT-310023",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "W520-2026-QT-310023",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "701571670",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Noah Wagner"
+    ],
+    "sensor": "vision4",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "7",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-05 04:51:09.0",
+    "defectDate": "2026-12-05 04:51:09.0",
+    "description": "Lead detection at TORQ-8. Pattern: Sensor intermittent dropout.\nContainment request: Sorting initiated with functional test repeat.\nRCA_HINT: EMI susceptibility due to shielding deviation.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 599936196, lot LOT-2867-09.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "W520-2026-QT-310024",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "W520-2026-QT-310024",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "FO33-2026-QT-310024",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "JK05-2026-QT-310024",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "LO10-2026-QT-310024",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "V490-2026-QT-310024",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "599936196",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Zhang San"
+    ],
+    "sensor": "eol-scan",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "7",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-21 05:39:20.0",
+    "defectDate": "2026-11-21 05:39:20.0",
+    "description": "Lead detection at LEAK-1. Pattern: Leakage under pressure test.\nContainment request: Containment: hold suspect batch and rework clamps.\nRCA_HINT: Torque tool calibration drift leading to under-tightening.\nTraceability: supplier DragonFast Components Co., Ltd. (1000001987), lead material 410965605, lot LOT-2816-84.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310025",
+    "issueRelations": [
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "FO33-2026-QT-310025",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "JK05-2026-QT-310025",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "V490-2026-QT-310025",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "W520-2026-QT-310025",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "410965605",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Zhang San"
+    ],
+    "sensor": "eol2",
+    "supplierId": "1000001987",
+    "supplierName": "DragonFast Components Co., Ltd.",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "4",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-09 23:09:25.0",
+    "defectDate": "2026-11-09 23:09:25.0",
+    "description": "Lead detection at VISION-4. Pattern: Scratch / cosmetic damage.\nContainment request: Containment: add protective film and retrain operators.\nRCA_HINT: Insufficient operator training on handling procedure.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 175006691, lot LOT-2896-46.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310026",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "LO10-2026-QT-310026",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "B210-2026-QT-310026",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "FO33-2026-QT-310026",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "JK05-2026-QT-310026",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "V490-2026-QT-310026",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "W520-2026-QT-310026",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "175006691",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Amelia Johnson"
+    ],
+    "sensor": "line21",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-06 14:31:50.0",
+    "defectDate": "2026-12-06 14:31:50.0",
+    "description": "Lead detection at LEAK-1. Pattern: Thread damage / torque anomaly.\nContainment request: Sorting initiated with thread gauge check.\nRCA_HINT: Worn tap / die at supplier leading to burrs.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 705985840, lot LOT-2891-10.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310027",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "FO33-2026-QT-310027",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "B210-2026-QT-310027",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "JK05-2026-QT-310027",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "LO10-2026-QT-310027",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "W520-2026-QT-310027",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "705985840",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Mia Schneider"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-19 03:18:40.0",
+    "defectDate": "2026-11-19 03:18:40.0",
+    "description": "Lead detection at VISION-4. Pattern: Thread damage / torque anomaly.\nContainment request: Sorting initiated with thread gauge check.\nRCA_HINT: Incorrect torque program selected at station.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 488246102, lot LOT-2819-78.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "V490-2026-QT-310028",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "V490-2026-QT-310028",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "B210-2026-QT-310028",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "FO33-2026-QT-310028",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "LO10-2026-QT-310028",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "W520-2026-QT-310028",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "488246102",
+    "PlantId": "V490",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "line21",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "4",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-24 12:49:45.0",
+    "defectDate": "2026-12-24 12:49:45.0",
+    "description": "Lead detection at EOL-2. Pattern: Insufficient solder joint / open circuit.\nContainment request: Containment: quarantine last 2 lots and test 100%.\nRCA_HINT: Insufficient solder wetting due to incorrect reflow profile.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 934543046, lot LOT-2827-65.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "W520-2026-QT-310029",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "W520-2026-QT-310029",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "B210-2026-QT-310029",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "FO33-2026-QT-310029",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "JK05-2026-QT-310029",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "LO10-2026-QT-310029",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "V490-2026-QT-310029",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "934543046",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Oliver Smith"
+    ],
+    "sensor": "torque8",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "5",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-25 08:48:45.0",
+    "defectDate": "2026-12-25 08:48:45.0",
+    "description": "Lead detection at LEAK-1. Pattern: Scratch / cosmetic damage.\nContainment request: Sorting initiated with visual inspection at light tunnel.\nRCA_HINT: Handling damage due to inadequate protective packaging.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 644854973, lot LOT-2857-04.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310030",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "FO33-2026-QT-310030",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "B210-2026-QT-310030",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "JK05-2026-QT-310030",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "LO10-2026-QT-310030",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "W520-2026-QT-310030",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "644854973",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Amelia Johnson"
+    ],
+    "sensor": "vision4",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "5",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-11 19:18:07.0",
+    "defectDate": "2026-12-11 19:18:07.0",
+    "description": "Lead detection at EOL-2. Pattern: Scratch / cosmetic damage.\nContainment request: Containment: add protective film and retrain operators.\nRCA_HINT: Handling damage due to inadequate protective packaging.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 140260662, lot LOT-2801-44.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310031",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "FO33-2026-QT-310031",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "B210-2026-QT-310031",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "LO10-2026-QT-310031",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "W520-2026-QT-310031",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "140260662",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Lukas Weber"
+    ],
+    "sensor": "finalCam1",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "8",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-23 12:57:51.0",
+    "defectDate": "2026-11-23 12:57:51.0",
+    "description": "Lead detection at TORQ-8. Pattern: Sensor intermittent dropout.\nContainment request: Sorting initiated with functional test repeat.\nRCA_HINT: Connector contact resistance due to poor crimp.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 210655224, lot LOT-2893-93.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310032",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "FO33-2026-QT-310032",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "B210-2026-QT-310032",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "JK05-2026-QT-310032",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "LO10-2026-QT-310032",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "V490-2026-QT-310032",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "W520-2026-QT-310032",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "210655224",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Amelia Johnson"
+    ],
+    "sensor": "eol-scan",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "7",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-12 04:56:55.0",
+    "defectDate": "2026-12-12 04:56:55.0",
+    "description": "Lead detection at EOL-2. Pattern: Sensor intermittent dropout.\nContainment request: Sorting initiated with functional test repeat.\nRCA_HINT: Internal sensor PCB micro-crack from handling shock.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 499858816, lot LOT-2857-12.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310033",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "JK05-2026-QT-310033",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "B210-2026-QT-310033",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "FO33-2026-QT-310033",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "LO10-2026-QT-310033",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "V490-2026-QT-310033",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "W520-2026-QT-310033",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "499858816",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "4",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-17 15:51:02.0",
+    "defectDate": "2026-11-17 15:51:02.0",
+    "description": "Lead detection at VISION-4. Pattern: Scratch / cosmetic damage.\nContainment request: Containment: add protective film and retrain operators.\nRCA_HINT: Contact with fixture during transport or assembly.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 177777868, lot LOT-2893-32.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310034",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "LO10-2026-QT-310034",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "B210-2026-QT-310034",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "FO33-2026-QT-310034",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "JK05-2026-QT-310034",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "V490-2026-QT-310034",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "W520-2026-QT-310034",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "177777868",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "leak1",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-31 00:32:04.0",
+    "defectDate": "2026-12-31 00:32:04.0",
+    "description": "Lead detection at EOL-3. Pattern: Thread damage / torque anomaly.\nContainment request: Containment: stop line and check torque program.\nRCA_HINT: Worn tap / die at supplier leading to burrs.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 764656492, lot LOT-2882-28.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310035",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "JK05-2026-QT-310035",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "B210-2026-QT-310035",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "LO10-2026-QT-310035",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "V490-2026-QT-310035",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "W520-2026-QT-310035",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "764656492",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Lukas Weber"
+    ],
+    "sensor": "eol-elec3",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "5",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-13 02:01:27.0",
+    "defectDate": "2026-11-13 02:01:27.0",
+    "description": "Lead detection at INSP-A12. Pattern: Sensor intermittent dropout.\nContainment request: Containment: add additional functional check at incoming.\nRCA_HINT: Connector contact resistance due to poor crimp.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 523938499, lot LOT-2862-57.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310036",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "JK05-2026-QT-310036",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "FO33-2026-QT-310036",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "LO10-2026-QT-310036",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "V490-2026-QT-310036",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "523938499",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Laura Wolf"
+    ],
+    "sensor": "finalCam1",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "2",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-16 19:26:28.0",
+    "defectDate": "2026-12-16 19:26:28.0",
+    "description": "Lead detection at EOL-3. Pattern: Sensor intermittent dropout.\nContainment request: Sorting initiated with functional test repeat.\nRCA_HINT: EMI susceptibility due to shielding deviation.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 850539557, lot LOT-2830-10.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310037",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "FO33-2026-QT-310037",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "JK05-2026-QT-310037",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "LO10-2026-QT-310037",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "V490-2026-QT-310037",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "W520-2026-QT-310037",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "850539557",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Sabine Keller"
+    ],
+    "sensor": "line7",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "8",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-12 06:42:35.0",
+    "defectDate": "2026-12-12 06:42:35.0",
+    "description": "Lead detection at LEAK-1. Pattern: Leakage under pressure test.\nContainment request: Containment: hold suspect batch and rework clamps.\nRCA_HINT: Torque tool calibration drift leading to under-tightening.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 153246119, lot LOT-2851-83.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310038",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "JK05-2026-QT-310038",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "B210-2026-QT-310038",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "FO33-2026-QT-310038",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "LO10-2026-QT-310038",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "V490-2026-QT-310038",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "W520-2026-QT-310038",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "153246119",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Amelia Johnson"
+    ],
+    "sensor": "finalCam1",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "5",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-05 01:01:58.0",
+    "defectDate": "2026-11-05 01:01:58.0",
+    "description": "Lead detection at LEAK-1. Pattern: Thread damage / torque anomaly.\nContainment request: Containment: stop line and check torque program.\nRCA_HINT: Incorrect torque program selected at station.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 187891151, lot LOT-2892-87.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "B210-2026-QT-310039",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "B210-2026-QT-310039",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "FO33-2026-QT-310039",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "JK05-2026-QT-310039",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "LO10-2026-QT-310039",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "V490-2026-QT-310039",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "187891151",
+    "PlantId": "B210",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "finalCam1",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-01 09:08:13.0",
+    "defectDate": "2026-11-01 09:08:13.0",
+    "description": "Lead detection at VISION-4. Pattern: Scratch / cosmetic damage.\nContainment request: Containment: add protective film and retrain operators.\nRCA_HINT: Insufficient operator training on handling procedure.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 719659571, lot LOT-2852-42.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "W520-2026-QT-310040",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "W520-2026-QT-310040",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "B210-2026-QT-310040",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "FO33-2026-QT-310040",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "V490-2026-QT-310040",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "719659571",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "finalCam1",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "8",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-10 01:57:02.0",
+    "defectDate": "2026-12-10 01:57:02.0",
+    "description": "Lead detection at EOL-3. Pattern: Scratch / cosmetic damage.\nContainment request: Containment: add protective film and retrain operators.\nRCA_HINT: Handling damage due to inadequate protective packaging.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 197402358, lot LOT-2804-79.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "V490-2026-QT-310041",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "V490-2026-QT-310041",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "FO33-2026-QT-310041",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "JK05-2026-QT-310041",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "LO10-2026-QT-310041",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "W520-2026-QT-310041",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "197402358",
+    "PlantId": "V490",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Laura Wolf"
+    ],
+    "sensor": "vision4",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-21 15:06:32.0",
+    "defectDate": "2026-12-21 15:06:32.0",
+    "description": "Lead detection at TORQ-8. Pattern: Insufficient solder joint / open circuit.\nContainment request: Containment: quarantine last 2 lots and test 100%.\nRCA_HINT: Component lead coplanarity issue causing weak joint.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 163469421, lot LOT-2842-82.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310042",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "JK05-2026-QT-310042",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "B210-2026-QT-310042",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "LO10-2026-QT-310042",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "V490-2026-QT-310042",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "W520-2026-QT-310042",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "163469421",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Mia Schneider"
+    ],
+    "sensor": "leak1",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "1",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-30 03:25:05.0",
+    "defectDate": "2026-12-30 03:25:05.0",
+    "description": "Lead detection at FIS-1. Pattern: Sensor intermittent dropout.\nContainment request: Containment: add additional functional check at incoming.\nRCA_HINT: Connector contact resistance due to poor crimp.\nTraceability: supplier DragonFast Components Co., Ltd. (1000001987), lead material 254892713, lot LOT-2850-09.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "V490-2026-QT-310043",
+    "issueRelations": [
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "V490-2026-QT-310043",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "B210-2026-QT-310043",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "FO33-2026-QT-310043",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "LO10-2026-QT-310043",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "W520-2026-QT-310043",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "254892713",
+    "PlantId": "V490",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Mia Schneider"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000001987",
+    "supplierName": "DragonFast Components Co., Ltd.",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-19 01:30:43.0",
+    "defectDate": "2026-12-19 01:30:43.0",
+    "description": "Lead detection at EOL-2. Pattern: Scratch / cosmetic damage.\nContainment request: Containment: add protective film and retrain operators.\nRCA_HINT: Handling damage due to inadequate protective packaging.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 701571670, lot LOT-2825-27.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310044",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "JK05-2026-QT-310044",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "B210-2026-QT-310044",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "FO33-2026-QT-310044",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "LO10-2026-QT-310044",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "V490-2026-QT-310044",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "W520-2026-QT-310044",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "701571670",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "vision4",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-22 06:56:42.0",
+    "defectDate": "2026-11-22 06:56:42.0",
+    "description": "Lead detection at EOL-2. Pattern: Insufficient solder joint / open circuit.\nContainment request: Containment: quarantine last 2 lots and test 100%.\nRCA_HINT: Contamination on pads leading to poor solderability.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 599936196, lot LOT-2894-93.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310045",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "FO33-2026-QT-310045",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "B210-2026-QT-310045",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "JK05-2026-QT-310045",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "LO10-2026-QT-310045",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "V490-2026-QT-310045",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "W520-2026-QT-310045",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "599936196",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Oliver Smith"
+    ],
+    "sensor": "finalCam1",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "2",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-15 10:10:53.0",
+    "defectDate": "2026-11-15 10:10:53.0",
+    "description": "Lead detection at LEAK-1. Pattern: Thread damage / torque anomaly.\nContainment request: Sorting initiated with thread gauge check.\nRCA_HINT: Misalignment of fastening tool causing cross-threading.\nTraceability: supplier DragonFast Components Co., Ltd. (1000001987), lead material 410965605, lot LOT-2864-94.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "B210-2026-QT-310046",
+    "issueRelations": [
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "B210-2026-QT-310046",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "FO33-2026-QT-310046",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "JK05-2026-QT-310046",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "LO10-2026-QT-310046",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "V490-2026-QT-310046",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "410965605",
+    "PlantId": "B210",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "eol-elec3",
+    "supplierId": "1000001987",
+    "supplierName": "DragonFast Components Co., Ltd.",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-30 07:00:08.0",
+    "defectDate": "2026-11-30 07:00:08.0",
+    "description": "Lead detection at EOL-3. Pattern: Insufficient solder joint / open circuit.\nContainment request: Sorting initiated at EOL with continuity test.\nRCA_HINT: Insufficient solder wetting due to incorrect reflow profile.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 175006691, lot LOT-2816-05.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310047",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "FO33-2026-QT-310047",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "B210-2026-QT-310047",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "JK05-2026-QT-310047",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "LO10-2026-QT-310047",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "V490-2026-QT-310047",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "W520-2026-QT-310047",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "175006691",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "line7",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-16 17:33:19.0",
+    "defectDate": "2026-11-16 17:33:19.0",
+    "description": "Lead detection at TORQ-8. Pattern: Insufficient solder joint / open circuit.\nContainment request: Sorting initiated at EOL with continuity test.\nRCA_HINT: Insufficient solder wetting due to incorrect reflow profile.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 705985840, lot LOT-2846-87.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310048",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "LO10-2026-QT-310048",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "B210-2026-QT-310048",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "FO33-2026-QT-310048",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "JK05-2026-QT-310048",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "V490-2026-QT-310048",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "W520-2026-QT-310048",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "705985840",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Li Si"
+    ],
+    "sensor": "leak1",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-08 22:51:43.0",
+    "defectDate": "2026-12-08 22:51:43.0",
+    "description": "Lead detection at EOL-3. Pattern: Thread damage / torque anomaly.\nContainment request: Containment: stop line and check torque program.\nRCA_HINT: Worn tap / die at supplier leading to burrs.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 488246102, lot LOT-2862-04.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310049",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "JK05-2026-QT-310049",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "FO33-2026-QT-310049",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "V490-2026-QT-310049",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "W520-2026-QT-310049",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "488246102",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "1",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-06 17:19:46.0",
+    "defectDate": "2026-11-06 17:19:46.0",
+    "description": "Lead detection at TORQ-8. Pattern: Thread damage / torque anomaly.\nContainment request: Sorting initiated with thread gauge check.\nRCA_HINT: Worn tap / die at supplier leading to burrs.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 934543046, lot LOT-2874-02.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "W520-2026-QT-310050",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "W520-2026-QT-310050",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "FO33-2026-QT-310050",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "JK05-2026-QT-310050",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "LO10-2026-QT-310050",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "V490-2026-QT-310050",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "934543046",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Amelia Johnson"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "8",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-09 10:35:11.0",
+    "defectDate": "2026-12-09 10:35:11.0",
+    "description": "Lead detection at VISION-4. Pattern: Sensor intermittent dropout.\nContainment request: Sorting initiated with functional test repeat.\nRCA_HINT: Connector contact resistance due to poor crimp.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 644854973, lot LOT-2872-67.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "W520-2026-QT-310051",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "W520-2026-QT-310051",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "B210-2026-QT-310051",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "FO33-2026-QT-310051",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "JK05-2026-QT-310051",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "LO10-2026-QT-310051",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "V490-2026-QT-310051",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "644854973",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "leak1",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "7",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-01 10:43:19.0",
+    "defectDate": "2026-11-01 10:43:19.0",
+    "description": "Lead detection at INSP-A12. Pattern: Sensor intermittent dropout.\nContainment request: Sorting initiated with functional test repeat.\nRCA_HINT: Internal sensor PCB micro-crack from handling shock.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 140260662, lot LOT-2891-86.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310052",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "FO33-2026-QT-310052",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "B210-2026-QT-310052",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "JK05-2026-QT-310052",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "LO10-2026-QT-310052",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "V490-2026-QT-310052",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "W520-2026-QT-310052",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "140260662",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Sabine Keller"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "1",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-27 07:39:18.0",
+    "defectDate": "2026-12-27 07:39:18.0",
+    "description": "Lead detection at INSP-A12. Pattern: Sensor intermittent dropout.\nContainment request: Sorting initiated with functional test repeat.\nRCA_HINT: Internal sensor PCB micro-crack from handling shock.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 210655224, lot LOT-2825-35.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310053",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "LO10-2026-QT-310053",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "B210-2026-QT-310053",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "FO33-2026-QT-310053",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "JK05-2026-QT-310053",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "V490-2026-QT-310053",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "W520-2026-QT-310053",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "210655224",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Amelia Johnson"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "8",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-25 08:32:46.0",
+    "defectDate": "2026-12-25 08:32:46.0",
+    "description": "Lead detection at TORQ-8. Pattern: Leakage under pressure test.\nContainment request: Containment: hold suspect batch and rework clamps.\nRCA_HINT: Seal seating issue due to clamp position variation.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 499858816, lot LOT-2870-63.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310054",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "JK05-2026-QT-310054",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "B210-2026-QT-310054",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "LO10-2026-QT-310054",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "V490-2026-QT-310054",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "W520-2026-QT-310054",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "499858816",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Zhang San"
+    ],
+    "sensor": "eol2",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-09 00:30:29.0",
+    "defectDate": "2026-11-09 00:30:29.0",
+    "description": "Lead detection at TORQ-8. Pattern: Sensor intermittent dropout.\nContainment request: Containment: add additional functional check at incoming.\nRCA_HINT: Internal sensor PCB micro-crack from handling shock.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 177777868, lot LOT-2865-55.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310055",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "LO10-2026-QT-310055",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "B210-2026-QT-310055",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "V490-2026-QT-310055",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "W520-2026-QT-310055",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "177777868",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Li Si"
+    ],
+    "sensor": "leak1",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "2",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-12 00:54:48.0",
+    "defectDate": "2026-11-12 00:54:48.0",
+    "description": "Lead detection at LEAK-1. Pattern: Sensor intermittent dropout.\nContainment request: Containment: add additional functional check at incoming.\nRCA_HINT: Internal sensor PCB micro-crack from handling shock.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 764656492, lot LOT-2833-11.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310056",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "JK05-2026-QT-310056",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "B210-2026-QT-310056",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "FO33-2026-QT-310056",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "LO10-2026-QT-310056",
+        "relationPlant": "LO10"
+      }
+    ],
+    "materialNumber": "764656492",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Zhang San"
+    ],
+    "sensor": "torque8",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "7",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-30 01:26:33.0",
+    "defectDate": "2026-11-30 01:26:33.0",
+    "description": "Lead detection at FIS-1. Pattern: Scratch / cosmetic damage.\nContainment request: Sorting initiated with visual inspection at light tunnel.\nRCA_HINT: Insufficient operator training on handling procedure.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 523938499, lot LOT-2836-48.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "W520-2026-QT-310057",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "W520-2026-QT-310057",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "B210-2026-QT-310057",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "FO33-2026-QT-310057",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "JK05-2026-QT-310057",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "LO10-2026-QT-310057",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "V490-2026-QT-310057",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "523938499",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Amelia Johnson"
+    ],
+    "sensor": "vision4",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-01 20:17:11.0",
+    "defectDate": "2026-12-01 20:17:11.0",
+    "description": "Lead detection at EOL-2. Pattern: Thread damage / torque anomaly.\nContainment request: Containment: stop line and check torque program.\nRCA_HINT: Misalignment of fastening tool causing cross-threading.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 850539557, lot LOT-2896-19.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310058",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "LO10-2026-QT-310058",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "B210-2026-QT-310058",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "JK05-2026-QT-310058",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "V490-2026-QT-310058",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "850539557",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Noah Wagner"
+    ],
+    "sensor": "leak1",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "1",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-26 05:10:31.0",
+    "defectDate": "2026-11-26 05:10:31.0",
+    "description": "Lead detection at INSP-A12. Pattern: Sensor intermittent dropout.\nContainment request: Sorting initiated with functional test repeat.\nRCA_HINT: Internal sensor PCB micro-crack from handling shock.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 153246119, lot LOT-2804-12.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310059",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "FO33-2026-QT-310059",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "B210-2026-QT-310059",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "JK05-2026-QT-310059",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "LO10-2026-QT-310059",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "V490-2026-QT-310059",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "153246119",
+        "relationObjectId": "W520-2026-QT-310059",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "153246119",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Lukas Weber"
+    ],
+    "sensor": "torque8",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "2",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-16 12:54:59.0",
+    "defectDate": "2026-12-16 12:54:59.0",
+    "description": "Lead detection at VISION-4. Pattern: Insufficient solder joint / open circuit.\nContainment request: Containment: quarantine last 2 lots and test 100%.\nRCA_HINT: Contamination on pads leading to poor solderability.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 187891151, lot LOT-2878-24.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "V490-2026-QT-310060",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "V490-2026-QT-310060",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "B210-2026-QT-310060",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "FO33-2026-QT-310060",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "JK05-2026-QT-310060",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "LO10-2026-QT-310060",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "187891151",
+        "relationObjectId": "W520-2026-QT-310060",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "187891151",
+    "PlantId": "V490",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "finalCam1",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "4",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-03 15:44:02.0",
+    "defectDate": "2026-12-03 15:44:02.0",
+    "description": "Lead detection at INSP-A12. Pattern: Scratch / cosmetic damage.\nContainment request: Sorting initiated with visual inspection at light tunnel.\nRCA_HINT: Handling damage due to inadequate protective packaging.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 719659571, lot LOT-2829-33.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310061",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "JK05-2026-QT-310061",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "B210-2026-QT-310061",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "LO10-2026-QT-310061",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "V490-2026-QT-310061",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "719659571",
+        "relationObjectId": "W520-2026-QT-310061",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "719659571",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "eol-elec3",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "7",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-07 02:59:37.0",
+    "defectDate": "2026-11-07 02:59:37.0",
+    "description": "Lead detection at EOL-2. Pattern: Thread damage / torque anomaly.\nContainment request: Containment: stop line and check torque program.\nRCA_HINT: Misalignment of fastening tool causing cross-threading.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 197402358, lot LOT-2854-61.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310062",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "JK05-2026-QT-310062",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "B210-2026-QT-310062",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "LO10-2026-QT-310062",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "V490-2026-QT-310062",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "197402358",
+        "relationObjectId": "W520-2026-QT-310062",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "197402358",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Lukas Weber"
+    ],
+    "sensor": "torque8",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-22 11:02:29.0",
+    "defectDate": "2026-12-22 11:02:29.0",
+    "description": "Lead detection at TORQ-8. Pattern: Scratch / cosmetic damage.\nContainment request: Containment: add protective film and retrain operators.\nRCA_HINT: Handling damage due to inadequate protective packaging.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 163469421, lot LOT-2888-16.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310063",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "LO10-2026-QT-310063",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "FO33-2026-QT-310063",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "JK05-2026-QT-310063",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "V490-2026-QT-310063",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "163469421",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "torque8",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-18 21:08:53.0",
+    "defectDate": "2026-12-18 21:08:53.0",
+    "description": "Lead detection at TORQ-8. Pattern: Leakage under pressure test.\nContainment request: Containment: hold suspect batch and rework clamps.\nRCA_HINT: Seal seating issue due to clamp position variation.\nTraceability: supplier DragonFast Components Co., Ltd. (1000001987), lead material 254892713, lot LOT-2864-98.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310064",
+    "issueRelations": [
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "LO10-2026-QT-310064",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "B210-2026-QT-310064",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "FO33-2026-QT-310064",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "254892713",
+        "relationObjectId": "JK05-2026-QT-310064",
+        "relationPlant": "JK05"
+      }
+    ],
+    "materialNumber": "254892713",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Li Si"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000001987",
+    "supplierName": "DragonFast Components Co., Ltd.",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-11 21:31:50.0",
+    "defectDate": "2026-11-11 21:31:50.0",
+    "description": "Lead detection at FIS-1. Pattern: Scratch / cosmetic damage.\nContainment request: Containment: add protective film and retrain operators.\nRCA_HINT: Insufficient operator training on handling procedure.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 701571670, lot LOT-2843-50.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310065",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "LO10-2026-QT-310065",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "B210-2026-QT-310065",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "FO33-2026-QT-310065",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "701571670",
+        "relationObjectId": "W520-2026-QT-310065",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "701571670",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Zhang San"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "4",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-15 11:55:10.0",
+    "defectDate": "2026-12-15 11:55:10.0",
+    "description": "Lead detection at LEAK-1. Pattern: Insufficient solder joint / open circuit.\nContainment request: Containment: quarantine last 2 lots and test 100%.\nRCA_HINT: Contamination on pads leading to poor solderability.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 599936196, lot LOT-2848-73.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310066",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "FO33-2026-QT-310066",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "JK05-2026-QT-310066",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "LO10-2026-QT-310066",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "599936196",
+        "relationObjectId": "V490-2026-QT-310066",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "599936196",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Oliver Smith"
+    ],
+    "sensor": "eol2",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "7",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-19 06:51:28.0",
+    "defectDate": "2026-11-19 06:51:28.0",
+    "description": "Lead detection at FIS-1. Pattern: Sensor intermittent dropout.\nContainment request: Sorting initiated with functional test repeat.\nRCA_HINT: Internal sensor PCB micro-crack from handling shock.\nTraceability: supplier DragonFast Components Co., Ltd. (1000001987), lead material 410965605, lot LOT-2891-32.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310067",
+    "issueRelations": [
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "JK05-2026-QT-310067",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "LO10-2026-QT-310067",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "V490-2026-QT-310067",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "W520-2026-QT-310067",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "410965605",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Zhang San"
+    ],
+    "sensor": "eol-scan",
+    "supplierId": "1000001987",
+    "supplierName": "DragonFast Components Co., Ltd.",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "4",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-07 21:14:38.0",
+    "defectDate": "2026-11-07 21:14:38.0",
+    "description": "Lead detection at LEAK-1. Pattern: Scratch / cosmetic damage.\nContainment request: Sorting initiated with visual inspection at light tunnel.\nRCA_HINT: Handling damage due to inadequate protective packaging.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 175006691, lot LOT-2815-88.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "V490-2026-QT-310068",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "V490-2026-QT-310068",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "B210-2026-QT-310068",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "JK05-2026-QT-310068",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "LO10-2026-QT-310068",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "175006691",
+        "relationObjectId": "W520-2026-QT-310068",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "175006691",
+    "PlantId": "V490",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Amelia Johnson"
+    ],
+    "sensor": "line21",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "7",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-05 18:44:21.0",
+    "defectDate": "2026-11-05 18:44:21.0",
+    "description": "Lead detection at FIS-1. Pattern: Thread damage / torque anomaly.\nContainment request: Sorting initiated with thread gauge check.\nRCA_HINT: Worn tap / die at supplier leading to burrs.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 705985840, lot LOT-2873-89.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "JK05-2026-QT-310069",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "JK05-2026-QT-310069",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "B210-2026-QT-310069",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "FO33-2026-QT-310069",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "LO10-2026-QT-310069",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "V490-2026-QT-310069",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "705985840",
+        "relationObjectId": "W520-2026-QT-310069",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "705985840",
+    "PlantId": "JK05",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Noah Wagner"
+    ],
+    "sensor": "eol-elec3",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "2",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-18 13:08:37.0",
+    "defectDate": "2026-11-18 13:08:37.0",
+    "description": "Lead detection at VISION-4. Pattern: Insufficient solder joint / open circuit.\nContainment request: Sorting initiated at EOL with continuity test.\nRCA_HINT: Insufficient solder wetting due to incorrect reflow profile.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 488246102, lot LOT-2829-14.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "V490-2026-QT-310070",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "V490-2026-QT-310070",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "B210-2026-QT-310070",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "FO33-2026-QT-310070",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "JK05-2026-QT-310070",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "LO10-2026-QT-310070",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "488246102",
+        "relationObjectId": "W520-2026-QT-310070",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "488246102",
+    "PlantId": "V490",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Mia Schneider"
+    ],
+    "sensor": "eol-elec3",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "5",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-21 01:20:47.0",
+    "defectDate": "2026-12-21 01:20:47.0",
+    "description": "Lead detection at LEAK-1. Pattern: Leakage under pressure test.\nContainment request: Containment: hold suspect batch and rework clamps.\nRCA_HINT: Surface roughness out of spec at sealing interface.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 934543046, lot LOT-2804-09.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "W520-2026-QT-310071",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "W520-2026-QT-310071",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "JK05-2026-QT-310071",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "LO10-2026-QT-310071",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "934543046",
+        "relationObjectId": "V490-2026-QT-310071",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "934543046",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Oliver Smith"
+    ],
+    "sensor": "eol2",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-06 08:42:38.0",
+    "defectDate": "2026-12-06 08:42:38.0",
+    "description": "Lead detection at INSP-A12. Pattern: Insufficient solder joint / open circuit.\nContainment request: Sorting initiated at EOL with continuity test.\nRCA_HINT: Insufficient solder wetting due to incorrect reflow profile.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 644854973, lot LOT-2880-69.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310072",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "LO10-2026-QT-310072",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "FO33-2026-QT-310072",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "JK05-2026-QT-310072",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "W520-2026-QT-310072",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "644854973",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Noah Wagner"
+    ],
+    "sensor": "finalCam1",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-05 20:31:46.0",
+    "defectDate": "2026-12-05 20:31:46.0",
+    "description": "Lead detection at EOL-3. Pattern: Leakage under pressure test.\nContainment request: Containment: hold suspect batch and rework clamps.\nRCA_HINT: Torque tool calibration drift leading to under-tightening.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 140260662, lot LOT-2821-21.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310073",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "FO33-2026-QT-310073",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "B210-2026-QT-310073",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "JK05-2026-QT-310073",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "LO10-2026-QT-310073",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "V490-2026-QT-310073",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "W520-2026-QT-310073",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "140260662",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Li Si"
+    ],
+    "sensor": "eol-elec3",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "4",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-16 12:54:35.0",
+    "defectDate": "2026-11-16 12:54:35.0",
+    "description": "Lead detection at INSP-A12. Pattern: Leakage under pressure test.\nContainment request: Sorting initiated with pressure test re-check.\nRCA_HINT: Torque tool calibration drift leading to under-tightening.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 210655224, lot LOT-2853-60.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "B210-2026-QT-310074",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "B210-2026-QT-310074",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "LO10-2026-QT-310074",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "V490-2026-QT-310074",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "210655224",
+        "relationObjectId": "W520-2026-QT-310074",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "210655224",
+    "PlantId": "B210",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Sabine Keller"
+    ],
+    "sensor": "eol2",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Leakage under pressure test"
+  },
+  {
+    "attachments": [],
+    "bi": "6",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-01 13:23:15.0",
+    "defectDate": "2026-11-01 13:23:15.0",
+    "description": "Lead detection at VISION-4. Pattern: Scratch / cosmetic damage.\nContainment request: Containment: add protective film and retrain operators.\nRCA_HINT: Handling damage due to inadequate protective packaging.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 499858816, lot LOT-2812-62.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2CD-MO04 0090"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310075",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "FO33-2026-QT-310075",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "LO10-2026-QT-310075",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "V490-2026-QT-310075",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "499858816",
+        "relationObjectId": "W520-2026-QT-310075",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "499858816",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Laura Wolf"
+    ],
+    "sensor": "line21",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Scratch / cosmetic damage"
+  },
+  {
+    "attachments": [],
+    "bi": "5",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-05 18:03:43.0",
+    "defectDate": "2026-11-05 18:03:43.0",
+    "description": "Lead detection at TORQ-8. Pattern: Thread damage / torque anomaly.\nContainment request: Sorting initiated with thread gauge check.\nRCA_HINT: Misalignment of fastening tool causing cross-threading.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 177777868, lot LOT-2824-26.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310076",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "FO33-2026-QT-310076",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "B210-2026-QT-310076",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "JK05-2026-QT-310076",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "LO10-2026-QT-310076",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "V490-2026-QT-310076",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "177777868",
+        "relationObjectId": "W520-2026-QT-310076",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "177777868",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Li Si"
+    ],
+    "sensor": "tool48",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-03 21:30:08.0",
+    "defectDate": "2026-12-03 21:30:08.0",
+    "description": "Lead detection at EOL-2. Pattern: Insufficient solder joint / open circuit.\nContainment request: Containment: quarantine last 2 lots and test 100%.\nRCA_HINT: Contamination on pads leading to poor solderability.\nTraceability: supplier Sakura Optics KK (1000006001), lead material 764656492, lot LOT-2866-58.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "B210-2026-QT-310077",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "B210-2026-QT-310077",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "FO33-2026-QT-310077",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "JK05-2026-QT-310077",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "LO10-2026-QT-310077",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "V490-2026-QT-310077",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Sakura Optics KK",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "764656492",
+        "relationObjectId": "W520-2026-QT-310077",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "764656492",
+    "PlantId": "B210",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Anna Schmidt"
+    ],
+    "sensor": "vision4",
+    "supplierId": "1000006001",
+    "supplierName": "Sakura Optics KK",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-02 11:39:17.0",
+    "defectDate": "2026-12-02 11:39:17.0",
+    "description": "Lead detection at TORQ-8. Pattern: Insufficient solder joint / open circuit.\nContainment request: Containment: quarantine last 2 lots and test 100%.\nRCA_HINT: Insufficient solder wetting due to incorrect reflow profile.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 523938499, lot LOT-2806-64.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-PCB01 0332"
+      }
+    ],
+    "issueld": "LO10-2026-QT-310078",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "LO10-2026-QT-310078",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "B210-2026-QT-310078",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "FO33-2026-QT-310078",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "JK05-2026-QT-310078",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "V490-2026-QT-310078",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "523938499",
+        "relationObjectId": "W520-2026-QT-310078",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "523938499",
+    "PlantId": "LO10",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Zhang San"
+    ],
+    "sensor": "vision4",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Insufficient solder joint / open circuit"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-04 20:20:02.0",
+    "defectDate": "2026-11-04 20:20:02.0",
+    "description": "Lead detection at TORQ-8. Pattern: Leakage under pressure test.\nContainment request: Sorting initiated with pressure test re-check.\nRCA_HINT: Seal seating issue due to clamp position variation.\nTraceability: supplier Bavaria Precision GmbH (1000001542), lead material 850539557, lot LOT-2896-96.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "V490-2026-QT-310079",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "V490-2026-QT-310079",
+        "relationPlant": "V490"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "FO33-2026-QT-310079",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "JK05-2026-QT-310079",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Bavaria Precision GmbH",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "850539557",
+        "relationObjectId": "W520-2026-QT-310079",
+        "relationPlant": "W520"
+      }
+    ],
+    "materialNumber": "850539557",
+    "PlantId": "V490",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Lukas Weber"
+    ],
+    "sensor": "eol-scan",
+    "supplierId": "1000001542",
+    "supplierName": "Bavaria Precision GmbH",
+    "title": "Leakage under pressure test"
+  }
+]

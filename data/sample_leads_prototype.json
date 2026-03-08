@@ -1,0 +1,267 @@
+[
+  {
+    "attachments": [],
+    "bi": "2",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-17 11:47:00.0",
+    "defectDate": "2026-12-17 11:47:00.0",
+    "description": "Lead detection at EOL-2. Pattern: Leakage under pressure test.\nContainment request: Containment: hold suspect batch and rework clamps.\nRCA_HINT: Seal seating issue due to clamp position variation.\nTraceability: supplier Thames Harness Ltd. (1000004112), lead material 163469421, lot LOT-2834-21.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "W520-2026-QT-310000",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "W520-2026-QT-310000",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "B210-2026-QT-310000",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "JK05-2026-QT-310000",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "LO10-2026-QT-310000",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Thames Harness Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "163469421",
+        "relationObjectId": "V490-2026-QT-310000",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "163469421",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Amelia Johnson"
+    ],
+    "sensor": "line21",
+    "supplierId": "1000004112",
+    "supplierName": "Thames Harness Ltd.",
+    "title": "Leakage under pressure test"
+  },
+ 
+  {
+    "attachments": [],
+    "bi": "5",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-11 11:24:54.0",
+    "defectDate": "2026-11-11 11:24:54.0",
+    "description": "Lead detection at TORQ-8. Pattern: Thread damage / torque anomaly.\nContainment request: Sorting initiated with thread gauge check.\nRCA_HINT: Worn tap / die at supplier leading to burrs.\nTraceability: supplier DragonFast Components Co., Ltd. (1000001987), lead material 410965605, lot LOT-2855-67.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2FA-BLT02 0007"
+      }
+    ],
+    "issueld": "FO33-2026-QT-310004",
+    "issueRelations": [
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "FO33-2026-QT-310004",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "B210-2026-QT-310004",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "JK05-2026-QT-310004",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "DragonFast Components Co., Ltd.",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "410965605",
+        "relationObjectId": "V490-2026-QT-310004",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "410965605",
+    "PlantId": "FO33",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Lukas Weber"
+    ],
+    "sensor": "line21",
+    "supplierId": "1000001987",
+    "supplierName": "DragonFast Components Co., Ltd.",
+    "title": "Thread damage / torque anomaly"
+  },
+  {
+    "attachments": [],
+    "bi": "3",
+    "complaintsLetters": [],
+    "createdOn": "2026-11-07 19:14:13.0",
+    "defectDate": "2026-11-07 19:14:13.0",
+    "description": "Lead detection at INSP-A12. Pattern: Sensor intermittent dropout.\nContainment request: Containment: add additional functional check at incoming.\nRCA_HINT: Internal sensor PCB micro-crack from handling shock.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 644854973, lot LOT-2809-33.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2EL-SEN01 0042"
+      }
+    ],
+    "issueld": "W520-2026-QT-310009",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "W520-2026-QT-310009",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "B210-2026-QT-310009",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "FO33-2026-QT-310009",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "644854973",
+        "relationObjectId": "V490-2026-QT-310009",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "644854973",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Noah Wagner"
+    ],
+    "sensor": "torque8",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Sensor intermittent dropout"
+  },
+  {
+    "attachments": [],
+    "bi": "8",
+    "complaintsLetters": [],
+    "createdOn": "2026-12-11 14:56:05.0",
+    "defectDate": "2026-12-11 14:56:05.0",
+    "description": "Lead detection at FIS-1. Pattern: Leakage under pressure test.\nContainment request: Containment: hold suspect batch and rework clamps.\nRCA_HINT: Torque tool calibration drift leading to under-tightening.\nTraceability: supplier Nordic Sensors AB (1000005088), lead material 140260662, lot LOT-2880-07.",
+    "inspectionOrders": [],
+    "issueEvents": [
+      {
+        "eventType": "2TH-HOSE03 0210"
+      }
+    ],
+    "issueld": "W520-2026-QT-310010",
+    "issueRelations": [
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Lead Issue",
+        "relationCategoryCode": "Z01",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "W520-2026-QT-310010",
+        "relationPlant": "W520"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "B210-2026-QT-310010",
+        "relationPlant": "B210"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "FO33-2026-QT-310010",
+        "relationPlant": "FO33"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "JK05-2026-QT-310010",
+        "relationPlant": "JK05"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "LO10-2026-QT-310010",
+        "relationPlant": "LO10"
+      },
+      {
+        "relationAttribute1": "Nordic Sensors AB",
+        "relationCategory": "Child Issue",
+        "relationCategoryCode": "Z02",
+        "relationMaterialNumber": "140260662",
+        "relationObjectId": "V490-2026-QT-310010",
+        "relationPlant": "V490"
+      }
+    ],
+    "materialNumber": "140260662",
+    "PlantId": "W520",
+    "quantity": 1,
+    "quantityUnit": "Piece",
+    "responsibles": [
+      "Li Si"
+    ],
+    "sensor": "vision4",
+    "supplierId": "1000005088",
+    "supplierName": "Nordic Sensors AB",
+    "title": "Leakage under pressure test"
+  }
+]

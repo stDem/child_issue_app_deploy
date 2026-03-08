@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: child-issue-backend
+    env: python
+    plan: free
+    region: frankfurt
+    buildCommand: "pip install -r backend/requirements.txt"
+    startCommand: "uvicorn backend.server:app --host 0.0.0.0 --port 8000"
+    envVars:
+      - key: OLLAMA_URL
+        value: "http://localhost:11434"
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_BASE_URL
+        value: "https://api.groq.com/openai/v1"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_BASE_URL
+        value: "https://generativelanguage.googleapis.com/v1beta"
+
