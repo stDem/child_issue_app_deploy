@@ -75,9 +75,9 @@ function TrashIcon(){
 }
 
 export default function App(){
-  const [baseUrl, setBaseUrl] = useState("http://localhost:8000")
-  const [embedModel, setEmbedModel] = useState("nomic-embed-text:latest")
-  const [chatModel, setChatModel] = useState("llama3:latest")
+  const [baseUrl, setBaseUrl] = useState("https://child-issue-app-backend.onrender.com")
+  const [embedModel, setEmbedModel] = useState("gemini:gemini-embedding-001")
+  const [chatModel, setChatModel] = useState("groq:llama-3.3-70b-versatile")
 
   const [showSidebar, setShowSidebar] = useState(true)
 
@@ -342,10 +342,10 @@ export default function App(){
           <label className="label">Backend base URL</label>
           <input className="input" value={baseUrl} onChange={e=>setBaseUrl(e.target.value)} />
 
-          <label className="label">Ollama embedding model</label>
+          <label className="label">Embedding model</label>
           <input className="input" value={embedModel} onChange={e=>setEmbedModel(e.target.value)} />
 
-          <label className="label">Ollama chat model</label>
+          <label className="label">Chat model</label>
           <input className="input" value={chatModel} onChange={e=>setChatModel(e.target.value)} />
 
           <div className="small">
