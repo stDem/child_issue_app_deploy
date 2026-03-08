@@ -205,6 +205,35 @@ def _gemini_embed(model: str, text: str, timeout: int = 120) -> np.ndarray:
     return np.array(emb, dtype=np.float32)
 
 
+def _groq_embed(model: str, text: str, timeout: int = 120) -> np.ndarray:
+    """
+    model: Groq embedding model ID, e.g. 'text-embedding-3-small'
+    """
+    if not GROQ_API_KEY:
+        raise RuntimeError("GROQ_API_KEY is not set")
+
+    key = _provider_cache_key(f"groq_embed:{model}", {"text": text})
+    if key in _GEMINI_EMBED_CACHE:
+        return np.array(_GEMINI_EMBED_CACHE[key], dtype=np.float32)
+
+    url = f"{GROQ_BASE_URL.rstrip('/')}/embeddings"
+    headers = {"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"}
+    payload = {"model": model, "input": text}
+    r = requests.post(url, headers=headers, json=payload, timeout=timeout)
+    r.raise_for_status()
+    data = r.json() or {}
+
+    emb = None
+    if isinstance(data.get("data"), list) and data["data"]:
+        emb = (data["data"][0] or {}).get("embedding")
+
+    if not isinstance(emb, list) or not emb:
+        return np.array([], dtype=np.float32)
+
+    _GEMINI_EMBED_CACHE[key] = emb
+    return np.array(emb, dtype=np.float32)
+
+
 def _groq_chat(model: str, messages: List[Dict[str, str]], temperature: float = 0.2, timeout: int = 180) -> str:
     """
     model: Groq model ID, e.g. 'llama-3.3-70b-versatile'
@@ -233,9 +262,12 @@ def embed_router(embed_model: str, text: str) -> np.ndarray:
       - 'nomic-embed-text:latest' (Ollama default)
       - 'ollama:nomic-embed-text:latest'
       - 'gemini:gemini-embedding-001'
+      - 'groq:text-embedding-3-small'
     """
     if embed_model.startswith("gemini:"):
         return _gemini_embed(embed_model.split(":", 1)[1], text)
+    if embed_model.startswith("groq:"):
+        return _groq_embed(embed_model.split(":", 1)[1], text)
     if embed_model.startswith("ollama:"):
         return ollama.embed(embed_model.split(":", 1)[1], text)
     return ollama.embed(embed_model, text)
