@@ -343,8 +343,7 @@ export default function App(){
           href="https://github.com/stDem/child_issue_app_deploy"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn secondary"
-          style={{padding:"6px 10px", marginLeft:"8px"}}
+          style={{marginLeft:"auto", color:"var(--accent, #6aa9ff)", textDecoration:"underline"}}
           title="GitHub repository"
         >
           GitHub
