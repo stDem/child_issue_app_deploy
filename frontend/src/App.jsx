@@ -107,6 +107,14 @@ export default function App(){
 
   useEffect(()=>{ pingBackend() }, [baseUrl])
 
+  useEffect(()=>{
+    const base = (import.meta.env.BASE_URL || "/").replace(/\/$/, "")
+    fetch(`${base}/demo_enriched.json`)
+      .then(r=> r.ok ? r.json() : Promise.reject())
+      .then(data=> { if(Array.isArray(data) && data.length){ setEnriched(data); setLeads(data); setSelectedIdx(0) } })
+      .catch(()=>{})
+  }, [])
+
   async function postJSON(path, payload){
     const url = baseUrl.replace(/\/$/,"") + path
     const r = await fetch(url, {method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(payload)})
@@ -331,6 +339,16 @@ export default function App(){
         >
           {showSidebar ? "Hide settings" : "Show settings"}
         </button>
+        <a
+          href="https://github.com/stDem/child_issue_app_deploy"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn secondary"
+          style={{padding:"6px 10px", marginLeft:"8px"}}
+          title="GitHub repository"
+        >
+          GitHub
+        </a>
       </div>
 
       <div className={`container ${showSidebar ? "" : "oneCol"}`}>
