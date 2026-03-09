@@ -201,6 +201,26 @@ export default function App(){
     })
   }
 
+  // same error pattern rows delete
+  function removePattern(issueld){
+    if(selectedIdx == null) return
+    setEnriched(prev=>{
+      const next = structuredClone(prev)
+      const issue = next[selectedIdx]
+      const enr = extractEnrichment(issue.description)
+      if(enr){
+        if(enr.errorPattern && Array.isArray(enr.errorPattern.top)){
+          enr.errorPattern.top = enr.errorPattern.top.filter(r => !(r && r.issueld === issueld))
+        }
+        if(enr.map && Array.isArray(enr.map.markers)){
+          enr.map.markers = enr.map.markers.filter(m => !(m && m.type === "synergy" && m.issueld === issueld))
+        }
+        issue.description = replaceEnrichment(issue.description, enr)
+      }
+      return next
+    })
+  }
+
   // clickable issue JSON with MDBB
   function mdbbRows(supplierId, materialNumber, plantId=null){
     if(!parts) return []
@@ -553,6 +573,7 @@ export default function App(){
                               <th style={{width:"18%"}}>Sorting</th>
                               <th style={{width:"10%"}}>Sim.</th>
                               <th style={{width:"10%"}}>Mat.</th>
+                              <th style={{width:"8%"}}></th>
                             </tr>
                           </thead>
                           <tbody>
@@ -568,6 +589,9 @@ export default function App(){
                                 <td data-label="Sorting">{r.sorting || "—"}</td>
                                 <td data-label="Sim.">{r.similarity ?? "—"}</td>
                                 <td className="mono" data-label="Mat.">{r.materialNumber || "—"}</td>
+                                <td style={{textAlign:"right"}} data-label="">
+                                  <button className="iconBtn" title="Remove pattern" onClick={()=>removePattern(r.issueld)}><TrashIcon/></button>
+                                </td>
                               </tr>
                             ))}
                           </tbody>
