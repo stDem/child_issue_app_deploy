@@ -684,7 +684,16 @@ export default function App(){
 
           <div className="riskRow">
             <div>
-              <div className="small">Risk score</div>
+              <div className="small">
+                Risk score{" "}
+                <span
+                  className="small"
+                  style={{color:"var(--muted)", cursor:"help"}}
+                  title="Composite 0–100 score combining BI severity and recurrence of similar issues (higher = higher risk)."
+                >
+                  ⓘ
+                </span>
+              </div>
               <div style={{fontWeight:900, fontSize:16}}>
                 {enrichment?.risk?.scorePct != null ? `${enrichment.risk.scorePct}%` : "—"}
               </div>
@@ -706,7 +715,16 @@ export default function App(){
             </div>
 
             <div>
-              <div className="small">Trend (last 30d vs prev 30d)</div>
+              <div className="small">
+                Trend (last 30d vs prev 30d){" "}
+                <span
+                  className="small"
+                  style={{color:"var(--muted)", cursor:"help"}}
+                  title="Percentage change in number of issues in the last 30 days vs the previous 30 days for this supplier (positive = more issues now)."
+                >
+                  ⓘ
+                </span>
+              </div>
               <div style={{fontWeight:900, fontSize:16, color: (() => { const raw = enrichment?.trend?.trendPct; const t = (raw == null) ? 0 : ((Math.abs(raw) < 0.05 || raw <= -99.9) ? 0 : raw); return t > 0 ? "var(--danger)" : "var(--ok)"; })()}}>
                 {(() => {
                   const raw = enrichment?.trend?.trendPct
@@ -720,7 +738,16 @@ export default function App(){
           </div>
 
           <div style={{marginTop:10}}>
-            <div className="small">Issues per plant (last 30 days, training KB)</div>
+            <div className="small">
+              Issues per plant (last 30 days, training KB){" "}
+              <span
+                className="small"
+                style={{color:"var(--muted)", cursor:"help"}}
+                title="Number of historical issues per plant in the last 30 days, based on the training knowledge base."
+              >
+                ⓘ
+              </span>
+            </div>
             <div style={{display:"grid", gap:6, marginTop:6}}>
               {(() => {
                 const rows = enrichment?.trend?.countsLastMonthByPlant || []
