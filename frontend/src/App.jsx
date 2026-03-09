@@ -445,9 +445,11 @@ export default function App(){
             <table className="table">
               <thead>
                 <tr>
-                  <th style={{width:"30%"}}>issueld</th>
-                  <th style={{width:"20%"}}>Plant</th>
-                  <th style={{width:"20%"}}>Material</th>
+                  <th style={{width:"22%"}}>issueld</th>
+                  <th style={{width:"8%"}}>BI</th>
+                  <th style={{width:"20%"}}>Title</th>
+                  <th style={{width:"16%"}}>Plant</th>
+                  <th style={{width:"14%"}}>Material</th>
                   <th style={{width:"20%"}}>Supplier</th>
                   <th style={{width:"10%"}}>Childs</th>
                 </tr>
@@ -460,12 +462,9 @@ export default function App(){
                   return (
                     <tr key={idx} onClick={()=>{ setSelectedIdx(idx); setLinkedJson(null) }}
                         style={active ? {outline:`2px solid rgba(106,169,255,.4)`} : undefined}>
-                      <td>
-                        <div className="mono">{iss.issueld || "—"}</div>
-                        <div className="small">
-                          BI: {iss.bi ?? "—"}{iss.title ? ` · ${iss.title}` : ""}
-                        </div>
-                      </td>
+                      <td className="mono">{iss.issueld || "—"}</td>
+                      <td className="mono">{iss.bi ?? "—"}</td>
+                      <td>{iss.title || "—"}</td>
                       <td>{fmtPlant(iss.PlantId)}</td>
                       <td className="mono">{iss.materialNumber || "—"}</td>
                       <td>{s}</td>
@@ -488,7 +487,7 @@ export default function App(){
                   <td>
                     {childrenList.length === 0 ? <span className="small">No child relations.</span> : (
                       <div className="tableScroll">
-                        <table className="table">
+                        <table className="table stackTable">
                           <thead>
                             <tr>
                               <th style={{width:"28%"}}>issueld</th>
@@ -502,16 +501,16 @@ export default function App(){
                           <tbody>
                             {childrenList.map((c)=>(
                               <tr key={c.plantId}>
-                                <td className="mono">
+                                <td className="mono" data-label="issueld">
                                   <a href="#" onClick={(e)=>{e.preventDefault(); openLinked(c.issueld, c.supplierId, c.supplierName, c.materialNumber, c.plantId)}}>
                                     {c.issueld}
                                   </a>
                                 </td>
-                                <td>{fmtPlant(c.plantId)}</td>
-                                <td className="mono">{c.materialNumber}</td>
-                                <td>{c.supplierName}</td>
-                                <td className="mono">{Number.isFinite(c.confidence) ? c.confidence.toFixed(2) : "1.00"}</td>
-                                <td style={{textAlign:"right"}}>
+                                <td data-label="Plant">{fmtPlant(c.plantId)}</td>
+                                <td className="mono" data-label="Material">{c.materialNumber}</td>
+                                <td data-label="Supplier">{c.supplierName}</td>
+                                <td className="mono" data-label="Conf.">{Number.isFinite(c.confidence) ? c.confidence.toFixed(2) : "1.00"}</td>
+                                <td style={{textAlign:"right"}} data-label="">
                                   <button className="iconBtn" title="Remove child" onClick={()=>removeChild(c.plantId)}><TrashIcon/></button>
                                 </td>
                               </tr>
@@ -545,7 +544,7 @@ export default function App(){
 
                     {Array.isArray(enrichment?.errorPattern?.top) && enrichment.errorPattern.top.length ? (
                       <div className="tableScroll">
-                        <table className="table">
+                        <table className="table stackTable">
                           <thead>
                             <tr>
                               <th style={{width:"16%"}}>Date</th>
@@ -559,16 +558,16 @@ export default function App(){
                           <tbody>
                             {enrichment.errorPattern.top.map((r)=>(
                               <tr key={r.issueld}>
-                                <td>{r.date || "—"}</td>
-                                <td>{fmtPlant(r.plantId)}</td>
-                                <td className="mono">
+                                <td data-label="Date">{r.date || "—"}</td>
+                                <td data-label="Plant">{fmtPlant(r.plantId)}</td>
+                                <td className="mono" data-label="issueld">
                                   <a href="#" onClick={(e)=>{e.preventDefault(); openLinked(r.issueld, selected?.supplierId, selected?.supplierName, r.materialNumber, r.plantId)}}>
                                     {r.issueld}
                                   </a>
                                 </td>
-                                <td>{r.sorting || "—"}</td>
-                                <td>{r.similarity ?? "—"}</td>
-                                <td className="mono">{r.materialNumber || "—"}</td>
+                                <td data-label="Sorting">{r.sorting || "—"}</td>
+                                <td data-label="Sim.">{r.similarity ?? "—"}</td>
+                                <td className="mono" data-label="Mat.">{r.materialNumber || "—"}</td>
                               </tr>
                             ))}
                           </tbody>
@@ -586,7 +585,7 @@ export default function App(){
                     <div style={{margin:"0 0 10px 0"}}>{enrichment?.rootCauses?.intro || ""}</div>
                     {Array.isArray(enrichment?.rootCauses?.items) && enrichment.rootCauses.items.length ? (
                       <div className="tableScroll">
-                        <table className="table">
+                        <table className="table stackTable">
                           <thead>
                             <tr>
                               <th style={{width:"60%"}}>Cause</th>
@@ -597,9 +596,9 @@ export default function App(){
                           <tbody>
                             {enrichment.rootCauses.items.map((rc, idx)=>(
                               <tr key={idx}>
-                                <td>{rc.cause}</td>
-                                <td>{rc.confidence ?? "—"}</td>
-                                <td>{rc.support || "—"}</td>
+                                <td data-label="Cause">{rc.cause}</td>
+                                <td data-label="Conf.">{rc.confidence ?? "—"}</td>
+                                <td data-label="Support">{rc.support || "—"}</td>
                               </tr>
                             ))}
                           </tbody>
