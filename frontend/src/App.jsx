@@ -115,6 +115,13 @@ export default function App(){
       .catch(()=>{})
   }, [])
 
+  function clearDemo(){
+    setEnriched(null)
+    setLeads(null)
+    setSelectedIdx(null)
+    setLinkedJson(null)
+  }
+
   async function postJSON(path, payload){
     const url = baseUrl.replace(/\/$/,"") + path
     const r = await fetch(url, {method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(payload)})
@@ -423,6 +430,9 @@ export default function App(){
           <div className="small">
             Tip: open an issue → remove a child via trash icon → download updated JSON.
           </div>
+          <div className="row" style={{marginTop:8}}>
+            <button className="btn secondary" onClick={clearDemo}>Clear demo result</button>
+          </div>
         </section>
         )}
 
@@ -450,7 +460,12 @@ export default function App(){
                   return (
                     <tr key={idx} onClick={()=>{ setSelectedIdx(idx); setLinkedJson(null) }}
                         style={active ? {outline:`2px solid rgba(106,169,255,.4)`} : undefined}>
-                      <td className="mono">{iss.issueld || "—"}</td>
+                      <td>
+                        <div className="mono">{iss.issueld || "—"}</div>
+                        <div className="small">
+                          BI: {iss.bi ?? "—"}{iss.title ? ` · ${iss.title}` : ""}
+                        </div>
+                      </td>
                       <td>{fmtPlant(iss.PlantId)}</td>
                       <td className="mono">{iss.materialNumber || "—"}</td>
                       <td>{s}</td>
@@ -466,7 +481,7 @@ export default function App(){
 
           <h2>Issue details</h2>
           <div className="tableScroll">
-            <table className="table">
+            <table className="table detailsTable">
               <tbody>
                 <tr>
                   <th style={{width:220}}>1) Children</th>

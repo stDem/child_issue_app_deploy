@@ -1,7 +1,7 @@
 # Child-Issue AI (Ollama) — React prototype
 
 This is a **simple architecture** prototype:
-- FastAPI backend calls your local **Ollama** (embeddings + llama3)
+- FastAPI backend calls local **Ollama** (embeddings + llama3) or new added API models.
 - React + SCSS UI with:
   - issue list + details
   - merged "same error pattern" row
@@ -18,7 +18,13 @@ See `data/`:
 - `Issues_test_errors.json` (test set: missing children including cross-material cases)
 - `sample_leads.json` (subset for UI)
 
-## Run backend
+## To run online: 
+
+Just upload necessary files on the website.
+
+## To run locally: 
+
+### Run backend
 ```bash
 cd backend
 python -m venv .venv
@@ -27,14 +33,14 @@ pip install -r requirements.txt
 uvicorn server:app --reload --port 8000
 ```
 
-## Run frontend
+### Run frontend
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-## Ollama models
+### Ollama models
 ```bash
 ollama pull nomic-embed-text:latest
 ollama pull llama3:latest

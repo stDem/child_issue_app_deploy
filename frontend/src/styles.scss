@@ -225,3 +225,20 @@ pre{
   .item{ display:flex; gap:6px; align-items:center; }
   .dot{ width:10px; height:10px; border-radius:999px; display:inline-block; }
 }
+
+@media (max-width: 640px){
+  .detailsTable{
+    th, td{
+      display:block;
+      width:100% !important;
+    }
+    tr{
+      display:block;
+      margin-bottom:10px;
+    }
+    th{
+      border-bottom:none;
+      padding-bottom:4px;
+    }
+  }
+}
