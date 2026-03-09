@@ -549,8 +549,11 @@ def _trend_and_plant_counts(sid: str, lead: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def _risk_score(bi: int, pattern_count: int) -> Dict[str, Any]:
-    # Simple composite score: severity (BI) + recurrence (pattern_count)
-    sev = min(1.0, max(0.0, bi / 8.0))
+    # Simple composite score: severity (BI, 1 = worst, 10 = mild) + recurrence (pattern_count)
+    max_bi = 10.0
+    bi_clamped = float(min(max(bi, 1), max_bi))
+    # lower BI => higher severity; BI=1 -> sev≈1.0, BI=10 -> sev≈0.1
+    sev = (max_bi - bi_clamped + 1.0) / max_bi
     rec = min(1.0, np.log1p(pattern_count) / np.log1p(50))
     score = int(round(sev * 50 + rec * 50))
     bars = 10
